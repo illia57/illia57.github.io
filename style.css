@@ -1,3 +1,66 @@
 body {
-    background-color: beige;
+    background-color: white;
+}
+
+/* NAVbar */
+nav ul {
+    width: 100%;
+    list-style: none;
+    background-color: rgba(185, 185, 185, 0.5);
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav li {
+    display: inline-block;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    width: 15rem;
+    display: block;
+    padding: 15px;
+    font-size: 1.3rem;
+    font-family: Helvetica;
+}
+
+nav a:hover {
+    background-color: #3b3b3b8a;
+    transition: 0.4s;
+    text-decoration: none;
+    color: rgb(255, 197, 88);
+}
+
+nav {
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+
+/* name on image */
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.nameimage {
+    background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+.nametext {
+    text-align: center;
+    margin: auto;
+    padding-bottom: 23rem;
+    padding-top: 23rem;
+}
+
+/* section dividers */
+
+hr {
+    margin: 3rem;
 }
