@@ -147,10 +147,3 @@ footer {
 .footerhr {
     margin-bottom: 1.5rem;
 }
-
-/* mobile navbar fix */
-@media screen and (max-width: 745px) {
-    nav {
-      position: static;
-    }
-  }
