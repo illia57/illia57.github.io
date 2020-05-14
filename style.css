@@ -148,7 +148,7 @@ footer {
     margin-bottom: 1.5rem;
 }
 
-/* fix for chrome */
+/* fix for chrome that works */
 .sectiontextformat li {
     width: fit-content;
     text-align: center;
