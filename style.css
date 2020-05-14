@@ -6,7 +6,7 @@ body {
 nav ul {
     width: 100%;
     list-style: none;
-    background-color: rgba(185, 185, 185, 0.5);
+    background-color: rgba(185, 185, 185, 0.733);
     text-align: center;
     padding: 0px;
     margin: 0px;
@@ -28,7 +28,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #3b3b3b8a;
+    background-color: #3b3b3bc7;
     transition: 0.4s;
     text-decoration: none;
     color: rgb(255, 197, 88);
@@ -41,8 +41,7 @@ nav {
 }
 
 /* name on image */
-
-h1 {
+.nameimage h1 {
     font-size: 3.5rem;
 }
 
@@ -60,7 +59,100 @@ h1 {
 }
 
 /* section dividers */
-
 hr {
     margin: 3rem;
+}
+
+/* About Me */
+
+.aboutme .aboutmetext {
+    width: 60%;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.aboutme h1 {
+    margin-bottom: 3rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* icons grid */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-icon {
+    margin: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+
+}
+
+/* skills */
+.skills .skillstext {
+    width: 40%;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 6rem;
+}
+
+.skills h1 {
+    margin-bottom: 3rem;
+}
+
+/* experience */
+.experience .experiencetext {
+    width: 40%;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 5rem;
+}
+
+.experiencetext h1 {
+    margin-bottom: 3rem;
+}
+
+/* contact me */
+.contactcontainer {
+    background-color: burlywood;
+}
+
+.contactinfo  {
+    width: 40%;
+    font-size: 1.4rem;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+.contacttext {
+    margin: 2rem;
+    margin-bottom: 3rem;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    margin: 12px;
+    padding: 0;
+    text-shadow: grey 2px 2px 5px;
+}
+
+.footerhr {
+    margin-bottom: 1.5rem;
 }
