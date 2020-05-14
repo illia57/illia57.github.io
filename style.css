@@ -147,3 +147,10 @@ footer {
 .footerhr {
     margin-bottom: 1.5rem;
 }
+
+/* fix for chrome */
+.sectiontextformat li {
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
