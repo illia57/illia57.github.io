@@ -2,6 +2,10 @@ body {
     background-color: white;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* NAVbar */
 nav ul {
     width: 100%;
@@ -63,23 +67,28 @@ hr {
     margin: 3rem;
 }
 
-/* About Me */
+/* skill, esperience, contact section formatting */
 
-.aboutme .aboutmetext {
+.sectionformat .sectiontextformat {
     width: 60%;
     font-size: 1.4rem;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     margin: auto;
     margin-top: 6rem;
+    margin-bottom: 5rem;
 }
 
-.aboutme h1 {
+.sectiontextformat h1 {
     margin-bottom: 3rem;
 }
 
-html {
-    scroll-behavior: smooth;
+.box {
+    border: solid black 2px; 
+    border-radius: 2rem;
+    background-color: #3b3b3bc7;
+    margin: auto;
+    width: 60%;
 }
 
 /* icons grid */
@@ -96,53 +105,35 @@ html {
 
 }
 
-/* skills */
-.skills .skillstext {
-    width: 40%;
-    font-size: 1.4rem;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
-    margin-top: 6rem;
-}
-
-.skills h1 {
-    margin-bottom: 3rem;
-}
-
-/* experience */
-.experience .experiencetext {
-    width: 40%;
-    font-size: 1.4rem;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: auto;
-    margin-top: 6rem;
-    margin-bottom: 5rem;
-}
-
-.experiencetext h1 {
-    margin-bottom: 3rem;
-}
-
 /* contact me */
-.contactcontainer {
-    background-color: burlywood;
-}
-
-.contactinfo  {
-    width: 40%;
-    font-size: 1.4rem;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+.contact {
+    width: 60%;
     margin: auto;
-    margin-top: 6rem;
-    margin-bottom: 6rem;
 }
 
-.contacttext {
-    margin: 2rem;
-    margin-bottom: 3rem;
+/* project */
+.project h1 {
+    font-size: 3.5rem;
+    padding: 2rem;
+}
+
+.project {
+    background-image: url(images/comingsoon.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    padding-bottom: 23rem;
+    padding-top: 23rem;
+}
+
+.projecttext {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin: auto;
+    
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 60%;
 }
 
 /* footer */
@@ -156,3 +147,10 @@ footer {
 .footerhr {
     margin-bottom: 1.5rem;
 }
+
+/* mobile navbar fix */
+@media screen and (max-width: 745px) {
+    nav {
+      position: static;
+    }
+  }
